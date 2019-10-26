@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;;
+}
+
+.header {
+  background-color: black;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.menu {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu h1 {
+  margin-bottom: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.menu a:hover {
+  background-color: yellow;
+}
+
+.botao {
+  color: #fff;;
+  padding: 10px;
+  background: none;
+  background-color: black;
+  border-color: #333;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: yellow;
+  color: #333;
+}
